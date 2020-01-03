@@ -66,10 +66,10 @@ export class SubjectDetailsPage implements OnInit, OnDestroy {
       this.result.totalMarks += topicData.totalMarks;
 
     }
-    let topicLength = Object.keys(this.topicData).length;
     let percentage: any = (this.result.marksGained / this.result.totalMarks) * 100;
-    // let percentage: any = totalPercentageGained / topicLength;
-    percentage = percentage.toFixed(2);
-    this.result.percentageGained = parseFloat(percentage);
+    if (percentage) {
+      percentage = percentage.toFixed(2);
+      this.result.percentageGained = parseFloat(percentage);
+    }
   }
 }

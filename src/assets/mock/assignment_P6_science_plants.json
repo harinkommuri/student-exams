@@ -1,0 +1,95 @@
+{
+    "videoId": "9P5yjMeZxqk",
+    "questions": [
+        {
+            "question": "Plants are part of what?",
+            "answer": "Living Things",
+            "options": [
+                "No-Living Things",
+                "Both Living and Non-Living Things",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Morphology implies study of what?",
+            "answer": "External features",
+            "options": [
+                "Internal features",
+                "It doesn't have features",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Morphology is the description of the ______ organism.",
+            "answer": "Body",
+            "options": [
+                "Skull",
+                "Bone",
+                "Nerve"
+            ]
+        },
+        {
+            "question": "Herbs are part of which of the following?",
+            "answer": "Plants",
+            "options": [
+                "Water",
+                "Human",
+                "Rock"
+            ]
+        },
+        {
+            "question": "What is the feature of Creepers",
+            "answer": "Spread on ground",
+            "options": [
+                "Spread on wall",
+                "Doesn't spread",
+                "None of the given options"
+            ]
+        },
+        {
+            "question": "What are weeds?",
+            "answer": "Unwanted plants",
+            "options": [
+                "Use for decoration",
+                "Spread on ground",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Water comes out of a leaf into the air in form of ______ by leaves",
+            "answer": "Water vapors",
+            "options": [
+                "Steam",
+                "Air bubble",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Which of the following is not part of plant?",
+            "answer": "Clay",
+            "options": [
+                "Leaves",
+                "Root",
+                "Stem"
+            ]
+        },
+        {
+            "question": "What part of plant have the growth and deelopment?",
+            "answer": "Root",
+            "options": [
+                "Leaves",
+                "Flowers",
+                "Stem"
+            ]
+        },
+        {
+            "question": "Petal belongs to ______",
+            "answer": "Flowers",
+            "options": [
+                "Leaves",
+                "Sun",
+                "Earth"
+            ]
+        }
+    ]
+}
