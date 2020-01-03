@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Primary 6",
+        "id": "P6",
+        "subjects": [
+            {
+                "name": "Mathematics",
+                "id": "mathematics",
+                "topics": [
+                    {
+                        "name": "Natural Numbers",
+                        "id": "naturalNumbers"
+                    },
+                    {
+                        "name": "Whole Numbers",
+                        "id": "wholeNumbers"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "id": "science",
+                "topics": [
+                    {
+                        "name": "Food",
+                        "id": "food"
+                    },
+                    {
+                        "name": "Water",
+                        "id": "water"
+                    }
+                ]
+            }
+        ]
+    }
+]

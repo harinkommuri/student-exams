@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ subjectDetails.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="result-info">
+    <div class="info-circle">
+      {{ result.percentageGained }}%
+    </div>
+    <h4>
+      Total questions attempted: {{ result.totalMarks }}<br />
+      Total questions correct answered: {{ result.marksGained }}
+    </h4>
+  </div>
+  <ion-list>
+    <ion-item *ngFor="let topic of topics">
+      <ion-label>
+        {{ topic.name }}
+      </ion-label>
+      <ion-button slot="end" (click)="showTopics(topic)" fill="clear">
+        View
+      </ion-button>
+      <ion-button slot="end" fill="clear" [topicScore]="{'clsInfo': clsInfo, 'subject': subjectDetails, 'topic': topic}" (onGetData)="onGetTopicData($event)">
+        {{ topicData[topic.id]?.percentageGained }}%
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>

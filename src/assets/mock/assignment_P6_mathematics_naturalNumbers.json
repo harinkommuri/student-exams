@@ -1,0 +1,95 @@
+{
+    "videoId": "ig2oRsG1r7E",
+    "questions": [
+        {
+            "question": "Natural numbers can be used for ______",
+            "answer": "Counting",
+            "options": [
+                "Decrementing",
+                "Matching",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Is 10 a natural number?",
+            "answer": "Yes",
+            "options": [
+                "No",
+                "Both Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "0 is a natural number. True or False",
+            "answer": "False",
+            "options": [
+                "True",
+                "True and False",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "-10 is natural number. Is this statement correct?",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Both Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Are negative numbers are natural numbers?",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Both Yes and No",
+                "None of the given options"
+            ]
+        },
+        {
+            "question": "10.11 is natural number. it it true?",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Both Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Fractional values natural numbers. Tick the correct answer.",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Both Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "All countable numbers are natural numbers. Right?",
+            "answer": "Yes",
+            "options": [
+                "No",
+                "Both Yes and No",
+                "None of the given options"
+            ]
+        },
+        {
+            "question": "All Decimal values are natural numbers. Tick the right answer.",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Both Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Natural numbers can also be called ______",
+            "answer": "Counting Numbers",
+            "options": [
+                "Fraction Numbers",
+                "Negative Numbers",
+                "Decimal Numbers"
+            ]
+        }
+    ]
+}

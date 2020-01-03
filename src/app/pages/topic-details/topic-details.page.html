@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ topicDetails.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="result-info">
+    <div class="info-circle">
+      {{ result.percentageGained }}%
+    </div>
+    <h4>
+      Total questions attempted: {{ result.totalMarks }}<br />
+      Total questions correct answered: {{ result.marksGained }}
+    </h4>
+    <ion-button fill="clear" routerLink="/exam">
+      Take new test
+    </ion-button>
+  </div>
+  <div *ngIf="topicResults.length">
+    <h4 class="tests-header">All tests</h4>
+    <ion-list>
+      <ion-item *ngFor="let result of topicResults">
+        <ion-label>
+          <ion-text>
+            <h3>Test</h3>
+          </ion-text>
+          <p>
+            Attempted on {{ result.attemptedOn | date:"dd MMM, yyyy" }}
+          </p>
+          </ion-label>
+          <ion-button slot="end" (click)="showResultModal(result)" fill="clear">
+            View
+          </ion-button>
+          <ion-button slot="end" fill="clear">
+            {{ result.percentageGained }}%
+          </ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

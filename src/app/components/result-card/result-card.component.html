@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Result
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="result-info">
+    <p> Answered {{ result.marksGained }} question{{ (result.marksGained == 1) ? '' : 's' }} correctly out of {{ result.totalMarks }} question{{ (result.totalMarks == 1) ? '' : 's' }}</p>
+    <div class="info-circle">
+      {{ result.percentageGained }}%
+    </div>
+    <h4>
+      Marks: {{ result.marksGained }}/{{ result.totalMarks }}
+    </h4>
+  </div>
+  <div *ngFor="let qt of result?.questions; let qIndex = index;">
+    <p>{{ qIndex+1 }}. {{ qt.question }}</p>
+
+    <ion-list [ngClass]="(qt.correct == true) ? 'correct-answer-container' : ''">
+      <ion-item *ngFor="let opt of qt.options; let optIndex = index;">
+        <ion-checkbox slot="start" [(ngModel)]="opt.checked" disabled="true" ></ion-checkbox>
+        <ion-label>{{ opt.text }}</ion-label>
+      </ion-item>
+    </ion-list>
+    <div *ngIf="qt.correct == false" class="correct-answer">
+      Correct answer: {{ qt.options[qt.answer].text }}
+    </div>
+  </div>
+</ion-content>

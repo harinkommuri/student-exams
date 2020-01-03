@@ -1,0 +1,31 @@
+:host {
+    .correct-answer {
+        padding: 10px;
+        text-align: center;
+        color: green;
+    }
+
+    .item-checkbox-checked {
+        ion-checkbox {
+            --background-checked: red;
+            --border-color-checked: red;
+    
+            &+ion-label {
+                color: red;
+            }
+        }
+    }
+
+    .correct-answer-container {
+        .item-checkbox-checked {
+            ion-checkbox {
+                --background-checked: green;
+                --border-color-checked: green;
+
+                &+ion-label {
+                    color: green;
+                }
+            }
+        }
+    }
+}

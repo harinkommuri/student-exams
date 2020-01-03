@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exam
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="">
+    <iframe *ngIf="questionnaire.videoId" id="player" [embeddedVideoId]="questionnaire.videoId" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div>
+    <p>
+      Please watch the video and answer the following questions.<br/>
+      <!-- Note: You can't answer the questions untill video is completely played. -->
+      Each question carries one mark
+    </p>
+
+    <div *ngFor="let qt of questionnaire?.questions; let qIndex = index;">
+      <p>{{ qIndex+1 }}. {{ qt.question }}</p>
+
+      <ion-list>
+        <ion-item *ngFor="let opt of qt.options">
+          <ion-checkbox slot="start" [(ngModel)]="opt.checked"></ion-checkbox>
+          <ion-label>{{ opt.text }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+
+    <ion-button expand="block" (click)="finishTest()">Finish Test</ion-button>
+  </div>
+</ion-content>

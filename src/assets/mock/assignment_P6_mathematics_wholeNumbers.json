@@ -1,0 +1,95 @@
+{
+    "videoId": "73VCLo1qxso",
+    "questions": [
+        {
+            "question": "All whole numbers are natural numbers. True or False",
+            "answer": "False",
+            "options": [
+                "True",
+                "Both True and False",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Whole numbers include 0, Right or Wrong?",
+            "answer": "Right",
+            "options": [
+                "Wrong",
+                "True and False",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "Whole numbers start from ______",
+            "answer": "0",
+            "options": [
+                1,
+                -1, 
+                0.1
+            ]
+        }, 
+        {
+            "question": "Is 0 a whole number?",
+            "answer": "Yes",
+            "options": [
+                "No",
+                "Both Yes and No",
+                "None of the given options"
+            ]
+        },
+        {
+            "question": "-1 is a whole number. Right or Wrong?",
+            "answer": "Wrong",
+            "options": [
+                "Right",
+                "Both Right and Wrong",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "1000 is a whole number. Tick the right statement.",
+            "answer": "Yes",
+            "options": [
+                "No",
+                "Yes and No",
+                "None of the given answers"
+            ]
+        },
+        {
+            "question": "-0.1 is one the whole numbers. True or false",
+            "answer": "False",
+            "options": [
+                "True",
+                "True and False",
+                "None of the above" 
+            ]
+        },
+        {
+            "question": "Fractional values are whole number. Is this statement correct?",
+            "answer": "No",
+            "options": [
+                "Yes",
+                "Yes and No",
+                "None of the given"
+            ]
+        },
+        {
+            "question": "What is the sifference between Natural numbers and Whole numbers?",
+            "answer": "Whole numbers include 0",
+            "options": [
+                "Natural numbers include 0",
+                "Natural numbers include -1",
+                "Whole numbers include -1"
+            ]
+        },
+        {
+            "question": "We can count whole numbers from 0 to ______",
+            "answer": "Infinity",
+            "options": [
+                1,
+                100,
+                100000
+            ]
+        }
+    ]
+}
